@@ -4,11 +4,13 @@ import Who from "./components/Who/Who"
 import Works from "./components/Works/Works"
 import './App.scss'
 import Navbar from "./components/Navbar/Navbar"
+import { BrowserRouter } from "react-router-dom"
 
 
 function App() {
 
   return (
+  <BrowserRouter>
     <div className="app">
    
      <Navbar/>
@@ -17,6 +19,7 @@ function App() {
      <Works/>
     <Contacts/> 
     </div>
+    </BrowserRouter>
   )
 }
 

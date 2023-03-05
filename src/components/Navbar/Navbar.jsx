@@ -1,9 +1,11 @@
-import SearchIcon from '@mui/icons-material/Search';
+
 import React, { useState } from 'react'
 import'./Navbar.scss'
 import MenuIcon from "@mui/icons-material/Menu";
 
+
 import CloseIcon from '@mui/icons-material/Close';
+import {HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [collapse,setCollapse]=useState("nav_menu")
@@ -23,10 +25,12 @@ const Navbar = () => {
                 </div>
             <div className="links">
             <ul className={collapse}>
-                    <li>Home</li>
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    
+                    <li><Link to='#hero'  className ="link">Home</Link></li>
+                    <li><Link to='#who'  className ="link">About Me</Link></li>
+                    <li><Link to='#work'  className ="link">Porjects</Link></li>
+                    <li><Link to='#contact'  className ="link">Contact</Link></li>
+                    
                 </ul>
                 <div className={toggleIcon} onClick={onToggle}>
       <MenuIcon className='icon'/>

@@ -7,7 +7,7 @@ import './Who.scss'
 
 const Who = () => {
   return (
-    <div className="who">
+    <div className="who" id='who'>
         <div className="container">
             <div className="left">
                 

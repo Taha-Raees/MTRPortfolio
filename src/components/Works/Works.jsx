@@ -5,7 +5,7 @@ import './Works.scss'
 const Works = () => {
   
   return (
-    <div className="work"> 
+    <section id='work' className="work"> 
     <div className="Title">
           <h1>My Latest Projects</h1>
         </div>
@@ -48,7 +48,7 @@ functionality.
         </div>
       </div>
         
-    </div>
+    </section>
   )
 }
 

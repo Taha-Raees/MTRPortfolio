@@ -2,15 +2,17 @@
 .nav{
     display: flex;
     justify-content: center;
-    
+    z-index: 3;
     position: sticky;
     top: 0;
     .container1{ 
     width: 80vw;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px;
+    
     @media only screen and (max-width: 600px) {
         width: 100vw;
         padding: 10px 10px;
@@ -57,8 +59,14 @@
             
           } 
             li{
-                list-style: none;
+                .link{
+                    color: inherit;
+                text-decoration: none;
                 font-family: 'Kaushan Script', cursive;
+                cursor: pointer;
+                }
+                list-style: none;
+                
                 
             }
         }
