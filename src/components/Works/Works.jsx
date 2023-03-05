@@ -16,8 +16,7 @@ const Works = () => {
           <img src="images/Little_Lemon.gif" alt="" />
            <h2>Little Lemon</h2>
           <p>Purpose of this project was to create wire frames and high
-fidelity prototype, then implement those to react app. And last
-to gain some practical experience in unit testing. Website is also
+fidelity prototype, then implement those to react app. Website is also
 fully responsive.</p>
           <div className="icons">
             <a href="https://github.com/Taha-Raees/Little-Lemon.git" target="_blank"><GitHub/></a>
