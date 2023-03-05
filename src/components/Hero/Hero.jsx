@@ -1,6 +1,7 @@
 import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React from 'react'
+import {HashLink as Link } from 'react-router-hash-link';
 
 import './Hero.scss'
 
@@ -12,9 +13,9 @@ const Hero = () => {
         <div className="container">
             <div className="left">
                 <h1>Think. Design. Develop. </h1>
-                <h3> - What we do</h3>
-                <p>we enjoy creating delightful digital experiences.</p>
-                <button>Contact</button>
+                <h3> - What I Do</h3>
+                <p> Enjoy creating delightful digital experiences.</p>
+                <Link to='#contact'><button>Contact</button></Link>
 
             </div>
             <div className="right">

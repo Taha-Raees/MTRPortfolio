@@ -2,6 +2,7 @@ import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React from 'react'
 import Cube from '../Cube/Cube'
+import {HashLink as Link } from 'react-router-hash-link';
 
 import './Who.scss'
 
@@ -20,9 +21,9 @@ const Who = () => {
             </div>
             <div className="right">
             <h1>Think outside the square space </h1>
-                <h3> - Who we are</h3>
-                <p>A creative designer and developer with a passion for new technologies </p>
-                <button>See Our Works</button>
+                <h3> - Who am I</h3>
+                <p>Front-end Developer who cares deeply about user experience with serious passion for UI design and new technologies. </p>
+                <Link to='#work'><button>See My Works</button></Link>
             </div>
         </div>
     </div>

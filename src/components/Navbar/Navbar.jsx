@@ -19,10 +19,10 @@ const Navbar = () => {
   return (
     <div className="nav">
         <div className="container1">
-        <div className="Logo">
+        <Link to='#hero'  className ="link"> <div className="Logo">
                     <h1>MTR.</h1>
                     <p>The Developer</p>
-                </div>
+                </div></Link>
             <div className="links">
             <ul className={collapse}>
                     
