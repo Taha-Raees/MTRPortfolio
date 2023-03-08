@@ -12,7 +12,13 @@
         display: flex;
         justify-content: space-between;
         gap: 15vw;
-        
+        @media only screen and (max-width: 600px) {
+            flex-direction: column;
+            width: 100vw;
+            gap: 0vw;
+            justify-content: center;
+            
+        }
         
        
         .right{
@@ -21,8 +27,19 @@
            flex-direction: column;
            justify-content: center;
            gap: 20px;
+           @media only screen and (max-width: 600px) {
+            flex: 1;
+            margin-left: 5vw;
+            margin-top: -25vh;
+            margin-bottom: 18vh;
+            z-index: 0;
+        }
+           
            h1{
             font-size: 60px;
+            @media only screen and (max-width: 600px){
+                font-size: 40px;
+            }
 
            }
            h3{
@@ -35,7 +52,7 @@
             color: lightgray;
            }
            button{
-            background-color: rgb(226, 7, 135);
+            background-color: #e20787;
             color: white;
             font-weight: 500;
             width: 150px;
@@ -49,18 +66,19 @@
         .left{
             flex: 1;
             position: relative;
-            
-            img{
-                width: 35vw;
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                right: 0;
-                left: 0;
-                margin: auto;
+            width: 50vw;
+            margin-left: -35vw;
+            margin-right: 15vw;
+            color: #c6a0d3;
+            @media only screen and (max-width: 600px){
+                flex: 5;
+                width: 15vw;
                 
-               
+            margin-left: 2vw;
+            margin-right: 2vw;
+            
             }
+       
         }
     }
 }

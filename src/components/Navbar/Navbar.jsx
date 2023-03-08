@@ -26,10 +26,10 @@ const Navbar = () => {
             <div className="links">
             <ul className={collapse}>
                     
-                    <li><Link to='#hero'  className ="link">Home</Link></li>
+                    <li><Link to='#hero' className ="link">Home</Link></li>
                     <li><Link to='#who'  className ="link">About Me</Link></li>
                     <li><Link to='#work'  className ="link">Porjects</Link></li>
-                    <li><Link to='#contact'  className ="link">Contact</Link></li>
+                    <li><Link to='#contact'   className ="link">Contact</Link></li>
                     
                 </ul>
                 <div className={toggleIcon} onClick={onToggle}>

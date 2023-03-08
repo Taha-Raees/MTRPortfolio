@@ -5,20 +5,23 @@ import React, { useRef } from 'react'
 
 const Cube = () => {
   const textRef=useRef()
+  
   useFrame(
     (state)=>
     (textRef.current.position.x=Math.sin(state.clock.elapsedTime)*3)
   )
+ 
     return (
     <mesh>
         <boxGeometry />
         <meshStandardMaterial>
         <RenderTexture attach='map'>
-            <PerspectiveCamera makeDefault position={[0,0,9]}/>
+            <PerspectiveCamera makeDefault position={[0,0,10]}/>
             <color attach='background' args={["#b171a4"]}/>
             <Text ref={textRef} fontSize={3} color="#555555">
-                Designer
+                Developer
             </Text>
+           
             </RenderTexture >
         
         </meshStandardMaterial>

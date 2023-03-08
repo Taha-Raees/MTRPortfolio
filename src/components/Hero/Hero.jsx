@@ -29,7 +29,7 @@ const Hero = () => {
              
             </Canvas>
             
-                 <img src="images/moon.png" alt="" /> 
+                 <img src="/Portfolio/images/moon.png" alt="" /> 
             </div>
         </div>
     </div>

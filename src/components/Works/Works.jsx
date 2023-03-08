@@ -13,7 +13,7 @@ const Works = () => {
        
       <div className="project">
        
-          <img src="images/Little_Lemon.gif" alt="" />
+          <img src="/Portfolio/images/Little_Lemon.gif" alt="" />
            <h2>Little Lemon</h2>
           <p>Purpose of this project was to create wire frames and high
 fidelity prototype, then implement those to react app. Website is also
@@ -24,7 +24,7 @@ fully responsive.</p>
           </div>
         </div>
       <div className="project">
-          <img src="images/Mangata_Gallo___The_Jewller.gif" alt="" />
+          <img src="/Portfolio/images/Mangata_Gallo___The_Jewller.gif" alt="" />
           <h2>The Jeweller</h2>
           <p>HTML, CSS, and JavaScript is used to design this project. The web page is entirely responsive to all devices and
 contains some attractive animations.</p>
@@ -34,7 +34,7 @@ contains some attractive animations.</p>
           </div>
         </div>
       <div className="project">
-          <img src="images/MTR_Store.gif" alt="" />
+          <img src="/Portfolio/images/MTR_Store.gif" alt="" />
           <h2>MTR. Store</h2>
           <p>The project is an e-commerce react app that uses (S)CSS styling
 and the Redux library to implement a functional add-to-cart

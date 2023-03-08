@@ -4,6 +4,7 @@ import Who from "./components/Who/Who"
 import Works from "./components/Works/Works"
 import './App.scss'
 import Navbar from "./components/Navbar/Navbar"
+import Cube2 from "./components/Cube/Cube2"
 import { BrowserRouter } from "react-router-dom"
 
 
@@ -13,11 +14,11 @@ function App() {
   <BrowserRouter>
     <div className="app">
    
-     <Navbar/>
+      <Navbar/>
     <Hero/>
     <Who/>
      <Works/>
-    <Contacts/> 
+    <Contacts/>  
     </div>
     </BrowserRouter>
   )

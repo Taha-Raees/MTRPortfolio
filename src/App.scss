@@ -15,4 +15,9 @@
     .link{
         color: inherit;
     text-decoration: none;}
+     @media only screen and (max-width: 600px) {
+        width: 100vw;
+        background-image: url(../public/images/bg1.png);
+        background-size: cover;
+      }
 }

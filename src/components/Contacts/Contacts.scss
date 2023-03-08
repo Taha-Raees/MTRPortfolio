@@ -8,16 +8,29 @@
         display: flex;
         justify-content: space-between;
         gap: 50px;
+        @media only screen and (max-width: 600px){
+            flex-direction: column-reverse;
+            gap: 10px;
+        }
         .left{
             flex: 1;
             display: flex;
             justify-content: center;
             align-items: center;
+            @media only screen and (max-width: 600px){
+            z-index: 3;
+            }
             form{
                 width: 500px;
                 display: flex;
                 flex-direction: column;
+                
+                
                 gap: 25px;
+                @media only screen and (max-width: 600px){
+                    width: 98vw;
+                    gap: 10px;
+                }
                 h1{
                 font-weight: 200;
                 color: rgb(226, 7, 135);
@@ -28,7 +41,7 @@
                 background-color: rgb(239, 238, 238);
                 border: none;
                 border-radius: 5px;
-
+                
             }
             textarea{
                  padding: 20px;
@@ -37,6 +50,7 @@
                 border-radius: 5px;
             }
             button{
+                
                 background-color: rgb(226, 7, 135);
             color: white;
             font-weight: 500;
@@ -44,6 +58,11 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            @media only screen and (max-width: 600px){
+                margin-bottom: 20px;
+                
+                
+            }
             }
 
             }

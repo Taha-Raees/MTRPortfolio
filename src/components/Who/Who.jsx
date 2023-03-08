@@ -5,6 +5,7 @@ import Cube from '../Cube/Cube'
 import {HashLink as Link } from 'react-router-hash-link';
 
 import './Who.scss'
+import Cube2 from '../Cube/Cube2';
 
 const Who = () => {
   return (
@@ -12,12 +13,9 @@ const Who = () => {
         <div className="container">
             <div className="left">
                 
-            <Canvas camera={{fov:25, position:[5,5,5]}}>
-              <OrbitControls enableZoom={false} />
-              <ambientLight intensity={1}/>
-              <directionalLight position={[3,2,1]}/>
-              <Cube/>
-            </Canvas>
+            
+              <Cube2/>
+            
             </div>
             <div className="right">
             <h1>Think outside the square space </h1>

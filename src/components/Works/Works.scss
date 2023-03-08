@@ -5,8 +5,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10vh;
+    gap: 5vh;
+    @media only screen and (max-width: 600px){
+        gap: 0vh;
+       
+        
+    }
+
     .Title{
+        @media only screen and (max-width: 600px){
+            margin-top: 9vh;
+        }
         h1{
             font-weight: 400;
                 color: rgb(226, 7, 135);
@@ -16,6 +25,11 @@
     .container{
       display: flex;
       gap: 5vw;
+      @media only screen and (max-width: 600px){
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 2vh;
+      }
       .project{
         width: 25vw;
         display: flex;
@@ -25,15 +39,31 @@
         background-color: rgb(64, 4, 67);
         border-radius: 10px;
         align-items: center;
+        @media only screen and (max-width: 600px){
+            width: 90vw;
+            gap: 1px;
+            padding: 1vh 3vw;
+        }
+        h2{
+            @media only screen and (max-width: 600px){
+                font-size: 17px;
+            }
+        }
         p{
             text-align: center;
             font-size: 15px;
             font-weight: 300;
+            @media only screen and (max-width: 600px){
+                font-size: 13px;
+            }
         }
         
         img{
             width: 22vw;
             border-radius: 10px;
+            @media only screen and (max-width: 600px){
+                width: 50vw;
+            }
         }
         .icons{
             display: flex;
