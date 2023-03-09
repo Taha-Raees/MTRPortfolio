@@ -37,6 +37,7 @@
             }
         }
     .links{
+        
         .nav_menu{
             display: flex;
             
@@ -57,19 +58,34 @@
                 font-size: 15px;
                 gap: 1rem;
                 padding-right: 0vw;
-                
-            
-          } 
+          }
             li{
                 .link{
                     color: inherit;
                 text-decoration: none;
                 font-family: 'Kaushan Script', cursive;
                 cursor: pointer;
+                &:hover{
+                    color: rgb(226, 7, 135) ;
+
+                }
                 }
                 list-style: none;
-                
-                
+                &:hover{
+
+                    scale: 1.1;
+                }
+            }
+        }
+        .darkmode{
+            .icon3{
+                &:hover{
+                    color: rgb(226, 7, 135) ;
+                    scale: 1.1;
+                }
+            }
+            .icon4{
+                display: none;
             }
         }
         .nav_collapse{
@@ -80,26 +96,21 @@
             position: absolute;
             display: none;
             transform: translateY(-50%);
-            
             @media only screen and (max-width: 600px) {
                 display: block;
                 margin-right: 1vw;
-            
-          } 
+          }
           .icon{
             height: 35px;
             width: 35px;
-            
-            
+
           }
           .icon2{
             display: none;
             height: 35px;
             width: 35px;
-            
           }
-         
-           
+
         }
         .toggle{
             .icon{
@@ -127,13 +138,9 @@
      @media only screen and (max-width: 600px) {
         width: 100vw;
         padding: 0px 10px;
-        
-        
         margin-right: 40px;
 
       }
-   
-   
         .Logo{
             text-shadow: 2px 3px 2px rgba(145, 136, 153, 0.579), 0 0 1em rgb(153, 80, 138), 0 0 0.2em rgb(226, 223, 229);
            cursor: pointer;
@@ -154,7 +161,6 @@
     .links{
         .nav_menu{
             display: flex;
-            
             justify-content: space-around;
             gap: 3rem;
             padding-right: 2vw;
@@ -172,9 +178,8 @@
                 font-size: 15px;
                 gap: 1rem;
                 padding-right: 0vw;
-                
-            
-          } 
+
+          }
             li{
                 .link{
                     color: inherit;
@@ -182,10 +187,27 @@
                 font-family: 'Kaushan Script', cursive;
                 color: rgb(82, 33, 83);
                 cursor: pointer;
+                &:hover{
+                    color: rgb(226, 7, 135) ;
+                }
                 }
                 list-style: none;
-                
-                
+                &:hover{
+                    scale: 1.1;
+                }
+
+            }
+        }
+        .darkmode{
+            .icon3{
+                display: none;
+            }
+            .icon4{
+                 color: rgb(82, 33, 83);
+                 &:hover{
+                    color: rgb(226, 7, 135) ;
+                    scale: 1.1;
+                }
             }
         }
         .nav_collapse{
@@ -196,26 +218,20 @@
             position: absolute;
             display: none;
             transform: translateY(-50%);
-            
             @media only screen and (max-width: 600px) {
                 display: block;
                 margin-right: 1vw;
-            
-          } 
+
+          }
           .icon{
             height: 35px;
             width: 35px;
-            
-            
           }
           .icon2{
             display: none;
             height: 35px;
             width: 35px;
-            
           }
-         
-           
         }
         .toggle{
             .icon{

@@ -6,10 +6,13 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 import CloseIcon from '@mui/icons-material/Close';
 import {HashLink as Link } from 'react-router-hash-link';
+import { DarkMode, LightMode, LightModeOutlined } from '@mui/icons-material';
 
 const Navbar = (props) => {
   const [collapse,setCollapse]=useState("nav_menu")
   const [toggleIcon,setToggleIcon]= useState("toggler_icon")
+ 
+  
   const onToggle=()=>{
     collapse === "nav_menu"?setCollapse("nav_menu nav_collapse")
     : setCollapse("nav_menu")
@@ -30,9 +33,12 @@ const Navbar = (props) => {
                     <li><Link to='#who'  className ="link">About Me</Link></li>
                     <li><Link to='#work'  className ="link">Porjects</Link></li>
                     <li><Link to='#contact'   className ="link">Contact</Link></li>
-                    <button onClick={props.tg}>Toggle Theme</button>
-                    
+                    <div className='darkmode' onClick={props.tg}>
+                      <LightModeOutlined className='icon3'/>
+                      <DarkMode  className='icon4'/>
+                    </div>
                 </ul>
+                
                 <div className={toggleIcon} onClick={onToggle}>
       <MenuIcon className='icon'/>
       <CloseIcon className='icon2'/>
