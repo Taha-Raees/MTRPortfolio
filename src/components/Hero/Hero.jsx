@@ -5,10 +5,10 @@ import {HashLink as Link } from 'react-router-hash-link';
 
 import './Hero.scss'
 
-const Hero = () => {
+const Hero = (props) => {
   return (
   
-    <div className="hero" id='hero'>
+    <div className={props.font} id='hero'>
         
         <div className="container">
             <div className="left">

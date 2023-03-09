@@ -4,21 +4,30 @@ import Who from "./components/Who/Who"
 import Works from "./components/Works/Works"
 import './App.scss'
 import Navbar from "./components/Navbar/Navbar"
-import Cube2 from "./components/Cube/Cube2"
 import { BrowserRouter } from "react-router-dom"
+import { useState } from "react"
 
 
 function App() {
-
+  const [theme, setTheme] = useState('dark');
+  const [font1, setFont1] = useState('dark1');
+  const [font2, setFont2] = useState('dark2');
+  const [font3, setFont3] = useState('dark3');
+const toggleTheme=()=>{
+  setTheme(theme === 'dark' ? 'light' : 'dark');
+  setFont1(font1 === 'dark1' ? 'light1' : 'dark1');
+  setFont2(font2 === 'dark2' ? 'light2' : 'dark2');
+  setFont3(font3 === 'dark3' ? 'light3' : 'dark3');
+}
   return (
   <BrowserRouter>
-    <div className="app">
+    <div className={`App ${theme}`}>
    
-      <Navbar/>
-    <Hero/>
-    <Who/>
-     <Works/>
-    <Contacts/>  
+      <Navbar tg={toggleTheme} font={font1}  /> 
+    <Hero font={font2} />
+    <Who font={font3} />
+     <Works  />
+    <Contacts  />  
     </div>
     </BrowserRouter>
   )

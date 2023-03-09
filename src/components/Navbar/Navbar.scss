@@ -1,5 +1,5 @@
 
-.nav{
+.dark1{
     display: flex;
     justify-content: center;
     z-index: 3;
@@ -65,6 +65,122 @@
                     color: inherit;
                 text-decoration: none;
                 font-family: 'Kaushan Script', cursive;
+                cursor: pointer;
+                }
+                list-style: none;
+                
+                
+            }
+        }
+        .nav_collapse{
+            transform: translateX(0%);
+        }
+        .toggler_icon{
+            cursor: pointer;
+            position: absolute;
+            display: none;
+            transform: translateY(-50%);
+            
+            @media only screen and (max-width: 600px) {
+                display: block;
+                margin-right: 1vw;
+            
+          } 
+          .icon{
+            height: 35px;
+            width: 35px;
+            
+            
+          }
+          .icon2{
+            display: none;
+            height: 35px;
+            width: 35px;
+            
+          }
+         
+           
+        }
+        .toggle{
+            .icon{
+                display: none;
+            }
+            .icon2{
+                display: block;
+            }
+          }
+    }
+    }
+}
+.light1{
+     display: flex;
+    justify-content: center;
+    z-index: 3;
+    position: sticky;
+    top: 0;
+    .container1{ 
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+     @media only screen and (max-width: 600px) {
+        width: 100vw;
+        padding: 0px 10px;
+        
+        
+        margin-right: 40px;
+
+      }
+   
+   
+        .Logo{
+            text-shadow: 2px 3px 2px rgba(145, 136, 153, 0.579), 0 0 1em rgb(153, 80, 138), 0 0 0.2em rgb(226, 223, 229);
+           cursor: pointer;
+            h1{
+                 font-family: 'Kaushan Script', cursive;
+                 font-size: 35px;
+                 letter-spacing: 2px;
+                 color: rgb(82, 33, 83);
+            }
+            p{
+                font-size: 15px;
+                margin-top: -8px;
+                font-family: 'Kaushan Script', cursive;
+                color: rgb(226, 7, 135);
+
+            }
+        }
+    .links{
+        .nav_menu{
+            display: flex;
+            
+            justify-content: space-around;
+            gap: 3rem;
+            padding-right: 2vw;
+            font-size: 18px;
+            @media only screen and (max-width: 600px) {
+                position: fixed;
+                background-color: #2a0834f5;
+                flex-direction: column;
+                top: 0vh;
+                width: 30%;
+                height: 95vh;
+                right: 0;
+                transform: translateX(100%);
+                transition: 0.5s ease-out;
+                font-size: 15px;
+                gap: 1rem;
+                padding-right: 0vw;
+                
+            
+          } 
+            li{
+                .link{
+                    color: inherit;
+                text-decoration: none;
+                font-family: 'Kaushan Script', cursive;
+                color: rgb(82, 33, 83);
                 cursor: pointer;
                 }
                 list-style: none;

@@ -1,15 +1,15 @@
 import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React from 'react'
-import Cube from '../Cube/Cube'
+
 import {HashLink as Link } from 'react-router-hash-link';
 
 import './Who.scss'
 import Cube2 from '../Cube/Cube2';
 
-const Who = () => {
+const Who = (props) => {
   return (
-    <div className="who" id='who'>
+    <div className={props.font} id='who'>
         <div className="container">
             <div className="left">
                 
