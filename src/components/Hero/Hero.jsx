@@ -12,9 +12,9 @@ const Hero = (props) => {
         
         <div className="container">
             <div className="left">
-                <h1>Think. Design. Develop. </h1>
-                <h3> - What I Do</h3>
-                <p> Enjoy creating delightful digital experiences.</p>
+                <h1>Welcome to my portfolio! </h1>
+                <h3> - Who am I</h3>
+                <p> From Mechanical Engineering to Front-End Development: I'm a skilled front-end developer with a passion for creating visually stunning and user-friendly websites. My portfolio is a testament to my expertise in HTML, CSS, JavaScript, and UI/UX design, and showcases my ability to create dynamic and interactive websites using React.</p>
                 <Link to='#contact'><button>Contact</button></Link>
 
             </div>

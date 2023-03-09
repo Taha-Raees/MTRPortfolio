@@ -18,8 +18,8 @@ const Who = (props) => {
             
             </div>
             <div className="right">
-            <h1>Think outside the square space </h1>
-                <h3> - Who am I</h3>
+            <h1>Think-Design-Develop </h1>
+                <h3> - What I do</h3>
                 <p>Front-end Developer who cares deeply about user experience with serious passion for UI design and new technologies. </p>
                 <Link to='#work'><button>See My Works</button></Link>
             </div>
