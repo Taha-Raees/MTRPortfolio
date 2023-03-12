@@ -19,8 +19,8 @@ const Works = () => {
 fidelity prototype, then implement those to react app. Website is also
 fully responsive.</p>
           <div className="icons">
-            <a href="https://github.com/Taha-Raees/Little-Lemon.git" target="_blank"><GitHub/></a>
-            <a href="https://taha-raees.github.io/Little-Lemon/" target="_blank"><Launch/></a>
+            <a href="https://github.com/Taha-Raees/Little-Lemon.git" target="_blank"><GitHub className='icon'/></a>
+            <a href="https://taha-raees.github.io/Little-Lemon/" target="_blank"><Launch className='icon'/></a>
           </div>
         </div>
       <div className="project">
@@ -29,8 +29,8 @@ fully responsive.</p>
           <p>HTML, CSS, and JavaScript is used to design this project. The web page is entirely responsive to all devices and
 contains some attractive animations.</p>
           <div className="icons">
-          <a href="https://github.com/Taha-Raees/Myfirstwebpage.git" target="_blank"><GitHub/></a>
-            <a href="https://taha-raees.github.io/Myfirstwebpage/" target="_blank"><Launch/></a>
+          <a href="https://github.com/Taha-Raees/Myfirstwebpage.git" target="_blank"><GitHub className='icon'/></a>
+            <a href="https://taha-raees.github.io/Myfirstwebpage/" target="_blank"><Launch className='icon'/></a>
           </div>
         </div>
       <div className="project">
@@ -42,8 +42,8 @@ feature and the Strapi CMS to provide complete dynamic
 functionality.
 </p>
           <div className="icons">
-          <a href="https://github.com/Taha-Raees/MTR.Store.git" target="_blank"><GitHub/></a>
-            <a href="https://taha-raees.github.io/MTR.Store/" target="_blank"><Launch/></a>
+          <a href="https://github.com/Taha-Raees/MTR.Store.git" target="_blank"><GitHub className='icon'/></a>
+            <a href="https://taha-raees.github.io/MTR.Store/" target="_blank"><Launch className='icon'/></a>
           </div>
         </div>
       </div>

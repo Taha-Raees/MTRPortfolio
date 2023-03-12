@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
     .container{
         height: 100%;
         
@@ -15,8 +16,9 @@
         @media only screen and (max-width: 600px) {
             flex-direction: column;
             width: 100vw;
-            gap: 0vw;
+            gap: 1px;
             justify-content: center;
+            height: 100vh;
             
         }
         
@@ -29,16 +31,16 @@
            gap: 20px;
            @media only screen and (max-width: 600px) {
             flex: 1;
-            margin-left: 5vw;
-            margin-top: -25vh;
-            margin-bottom: 18vh;
+            height: 60vh;
             z-index: 0;
+            align-items: center;
         }
            
            h1{
             font-size: 60px;
             @media only screen and (max-width: 600px){
-                font-size: 40px;
+                font-size: 5vh;
+                text-align: center;
             }
 
            }
@@ -46,10 +48,18 @@
             color: rgb(226, 7, 135);
             font-size: 25px;
             font-weight: 500;
+            @media only screen and (max-width: 600px){
+                font-size: 20px;
+                text-align: center;
+            }
            }
            p{
             font-size: 20px;
             color: lightgray;
+            @media only screen and (max-width: 600px){
+                font-size: 2vh;
+                text-align: center;
+            }
            }
            button{
             background-color: #e20787;
@@ -65,18 +75,22 @@
         }
         .left{
             flex: 1;
+            
             position: relative;
             width: 50vw;
             margin-left: -35vw;
             margin-right: 15vw;
             color: #c6a0d3;
             @media only screen and (max-width: 600px){
-                flex: 5;
-                width: 15vw;
-                
-            margin-left: 2vw;
-            margin-right: 2vw;
-            
+                flex: 1;
+                display: flex;
+                height: 40vh;
+                width: 100%;
+                scale: 0.8;
+                align-items: center;
+                justify-content: center;
+                margin-left: auto;
+               margin-right: auto;
             }
        
         }
@@ -89,6 +103,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
     .container{
         height: 100%;
         
@@ -99,8 +114,9 @@
         @media only screen and (max-width: 600px) {
             flex-direction: column;
             width: 100vw;
-            gap: 0vw;
+            gap: 1px;
             justify-content: center;
+            height: 100vh;
             
         }
         
@@ -113,17 +129,17 @@
            gap: 20px;
            @media only screen and (max-width: 600px) {
             flex: 1;
-            margin-left: 5vw;
-            margin-top: -25vh;
-            margin-bottom: 18vh;
+            height: 60vh;
             z-index: 0;
+            align-items: center;
         }
            
            h1{
             font-size: 60px;
-            color: rgb(82, 33, 83);
+            color:rgb(82, 33, 83);
             @media only screen and (max-width: 600px){
-                font-size: 40px;
+                font-size: 5vh;
+                text-align: center;
             }
 
            }
@@ -131,10 +147,18 @@
             color: rgb(226, 7, 135);
             font-size: 25px;
             font-weight: 500;
+            @media only screen and (max-width: 600px){
+                font-size: 20px;
+                text-align: center;
+            }
            }
            p{
             font-size: 20px;
             color: lightgray;
+            @media only screen and (max-width: 600px){
+                font-size: 2vh;
+                text-align: center;
+            }
            }
            button{
             background-color: #e20787;
@@ -150,18 +174,22 @@
         }
         .left{
             flex: 1;
+            
             position: relative;
             width: 50vw;
             margin-left: -35vw;
             margin-right: 15vw;
             color: #c6a0d3;
             @media only screen and (max-width: 600px){
-                flex: 5;
-                width: 15vw;
-                
-            margin-left: 2vw;
-            margin-right: 2vw;
-            
+                flex: 1;
+                display: flex;
+                height: 40vh;
+                width: 100%;
+                scale: 0.8;
+                align-items: center;
+                justify-content: center;
+                margin-left: auto;
+               margin-right: auto;
             }
        
         }

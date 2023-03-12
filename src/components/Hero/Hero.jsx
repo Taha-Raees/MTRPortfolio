@@ -19,7 +19,8 @@ const Hero = (props) => {
 
             </div>
             <div className="right">
-            <Canvas>
+           <div className="canvas">
+           <Canvas>
               <OrbitControls enableZoom={false}/>
               <ambientLight intensity={0}/>
               <directionalLight position={[2,3,4]}/>
@@ -28,6 +29,7 @@ const Hero = (props) => {
               </Sphere>
              
             </Canvas>
+           </div>
             
                  <img src="/Portfolio/images/moon.png" alt="" /> 
             </div>

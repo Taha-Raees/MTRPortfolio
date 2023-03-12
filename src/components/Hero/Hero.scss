@@ -5,6 +5,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    @media only screen and (max-width: 600px){
+        height: auto;
+    }
     
     .container{
         height: 100%;
@@ -16,7 +19,7 @@
         @media only screen and (max-width: 600px) {
             flex-direction: column-reverse;
             width: 100vw;
-            gap: 0vw;
+            gap: 1px;
             
         }
         
@@ -31,13 +34,15 @@
            @media only screen and (max-width: 600px) {
             flex: 1;
             margin-left: 5vw;
-            margin-top: -10vh;
+            margin-right: 5vw;
+            align-items: center;
         }
            h1{
             font-size: 60px;
             color: rgb(255, 255, 255);
             @media only screen and (max-width: 600px){
-                font-size: 40px;
+                font-size: 5vh;
+                text-align: center;
             }
 
            }
@@ -45,10 +50,20 @@
             color: rgb(226, 7, 135);
             font-size: 25px;
             font-weight: 500;
+            @media only screen and (max-width: 600px){
+                font-size: 20px;
+                text-align: center;
+            }
+
            }
            p{
             font-size: 17px;
             color: lightgray;
+            @media only screen and (max-width: 600px){
+                font-size: 2vh;
+                text-align: center;
+            }
+
            }
            button{
             background-color: rgb(226, 7, 135);
@@ -59,6 +74,9 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            @media only screen and (max-width: 600px){
+                
+            }
            }
             
         }
@@ -67,8 +85,14 @@
             position: relative;
             @media only screen and (max-width: 600px) {
                 flex: 1;
-                margin-top: 12vh;
+                margin-top: 1vh;
             }
+            .canvas{
+                height: 100%;
+                @media only screen and (max-width: 600px){
+                     height: 35vh;}
+            }
+            
             
             img{
                 width: 30vw;
@@ -85,10 +109,10 @@
                     }
                 }
                 @media only screen and (max-width: 600px) {
-                    width: 50vw;
+                    width: 20vh;
                     @keyframes animate{
                         to{
-                            transform: scale(1.1) translateY(-30px);
+                            transform: scale(1.1) translateY(50px);
                         }
                     }
                 }
@@ -103,6 +127,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    @media only screen and (max-width: 600px){
+        height: auto;
+    }
     
     .container{
         height: 100%;
@@ -114,7 +141,7 @@
         @media only screen and (max-width: 600px) {
             flex-direction: column-reverse;
             width: 100vw;
-            gap: 0vw;
+            gap: 1px;
             
         }
         
@@ -129,13 +156,15 @@
            @media only screen and (max-width: 600px) {
             flex: 1;
             margin-left: 5vw;
-            margin-top: -10vh;
+            margin-right: 5vw;
+            align-items: center;
         }
            h1{
             font-size: 60px;
             color: rgb(82, 33, 83);
             @media only screen and (max-width: 600px){
-                font-size: 40px;
+                font-size: 5vh;
+                text-align: center;
             }
 
            }
@@ -143,10 +172,18 @@
             color:  rgb(226, 7, 135);
             font-size: 25px;
             font-weight: 500;
+            @media only screen and (max-width: 600px){
+                font-size: 20px;
+                text-align: center;
+            }
            }
            p{
             font-size: 17px;
             color: lightgray;
+            @media only screen and (max-width: 600px){
+                font-size: 2vh;
+                text-align: center;
+            }
            }
            button{
             background-color: rgb(226, 7, 135);
@@ -165,7 +202,12 @@
             position: relative;
             @media only screen and (max-width: 600px) {
                 flex: 1;
-                margin-top: 12vh;
+                margin-top: 1vh;
+            }
+            .canvas{
+                height: 100%;
+                @media only screen and (max-width: 600px){
+                     height: 35vh;}
             }
             
             img{
@@ -183,7 +225,7 @@
                     }
                 }
                 @media only screen and (max-width: 600px) {
-                    width: 50vw;
+                    width: 20vh;
                     @keyframes animate{
                         to{
                             transform: scale(1.1) translateY(-30px);
