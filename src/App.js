@@ -13,7 +13,8 @@ function App() {
   const [font1, setFont1] = useState('dark1');
   const [font2, setFont2] = useState('dark2');
   const [font3, setFont3] = useState('dark3');
-const toggleTheme=()=>{
+const toggleTheme=(e)=>{
+  
   setTheme(theme === 'dark' ? 'light' : 'dark');
   setFont1(font1 === 'dark1' ? 'light1' : 'dark1');
   setFont2(font2 === 'dark2' ? 'light2' : 'dark2');
