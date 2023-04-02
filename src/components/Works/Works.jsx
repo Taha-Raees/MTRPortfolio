@@ -18,7 +18,7 @@ const Works = () => {
       Title:"The Jeweller",
       Desc:"HTML, CSS, and JavaScript is used to design this project. The web page is entirely responsive to all devices and contains some attractive animations.",
       Source:"https://github.com/Taha-Raees/Myfirstwebpage.git",
-      Link:"https://taha-raees.github.io/Myfirstwebpage/"
+      Link:"https://cloud-object-storage-cos-standard-tmt.s3.eu-de.cloud-object-storage.appdomain.cloud/index.html"
     },
     {
       id:3,
