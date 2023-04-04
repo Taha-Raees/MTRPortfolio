@@ -27,7 +27,7 @@ const Who = (props) => {
             <div className="right">
             <h1>Think-Design-Develop-Test-Deploy </h1>
                 <h3> - Who am I</h3>
-                <p> I'm a skilled DevOps engineer and front-end developer with a passion for creating visually stunning and user-friendly websites. My portfolio is a testament to my expertise in HTML, CSS, JavaScript, and UI/UX design.</p>
+                <p> I'm a skilled  front-end developer with a passion for creating visually stunning and user-friendly websites. My portfolio is a testament to my expertise in HTML, CSS, JavaScript, and UI/UX design.</p>
                 <p>If you would like to learn more about my education and qualifications, please download my latest CV.</p>
                 <div className="buttons">
                 <Link to='#work'><button>See My Works</button></Link>
