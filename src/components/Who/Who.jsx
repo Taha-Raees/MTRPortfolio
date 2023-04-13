@@ -8,12 +8,12 @@ import './Who.scss'
 import Cube2 from '../Cube/Cube2';
 
 const Who = (props) => {
-  const ResumeUrl='/Portfolio/images/Muhammad_Taha_Raees_-_Frontend_Developer.pdf'
+  const ResumeUrl='/Portfolio/images/resume.pdf'
   const downloadResume=(url)=>{
     
     const aTag= document.createElement('a')
     aTag.href=url
-    aTag.setAttribute('download','Muhammad_Taha_Raees_-_Frontend_Developer.pdf')
+    aTag.setAttribute('download','resume.pdf')
     document.body.appendChild(aTag)
     aTag.click()
     aTag.remove()
