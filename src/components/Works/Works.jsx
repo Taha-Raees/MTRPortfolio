@@ -5,7 +5,7 @@ import './Works.scss'
 const Works = () => {
   const data=[
      {
-      id:41
+      id:1
       Image:"/Portfolio/images/TODO.gif",
       Title:"Latest Portfolio",
       Desc:"I am currently working this portfolio website on nextjs",
